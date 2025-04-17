@@ -1,5 +1,5 @@
 "use client";
-
+import Image from 'next/image';
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { FaUser, FaEnvelope, FaCalendarAlt, FaQuoteLeft } from "react-icons/fa";
@@ -161,10 +161,10 @@ export default function BookingAndTestimonials() {
               <FaQuoteLeft className="text-3xl text-[#5c3d8f] mt-1" />
               <div>
                 <p className="text-black font-medium mb-2">
-                  "The best place to stay in town! Cozy rooms and amazing amenities."
+                &quot;The best place to stay in town! Cozy rooms and amazing amenities.quote&quot;
                 </p>
                 <div className="flex items-center gap-4 mt-2">
-                  <img
+                  <Image
                     src="/icon1.png"
                     alt="Guest 1"
                     className="w-12 h-12 rounded-full object-cover"
@@ -182,10 +182,10 @@ export default function BookingAndTestimonials() {
               <FaQuoteLeft className="text-3xl text-[#5c3d8f] mt-1" />
               <div>
                 <p className="text-black font-medium mb-2">
-                  "Highly recommend this hostel. Friendly staff and great atmosphere."
+                &quot;Highly recommend this hostel. Friendly staff and great atmosphere.quote&quot;
                 </p>
                 <div className="flex items-center gap-4 mt-2">
-                  <img
+                  <Image
                     src="/icon1.png"
                     alt="Guest 2"
                     className="w-12 h-12 rounded-full object-cover"
@@ -203,10 +203,10 @@ export default function BookingAndTestimonials() {
               <FaQuoteLeft className="text-3xl text-[#5c3d8f] mt-1" />
               <div>
                 <p className="text-black font-medium mb-2">
-                  "Affordable and comfortable! Will definitely book again next time."
+                &quot;Affordable and comfortable! Will definitely book again next time.quote&quot;
                 </p>
                 <div className="flex items-center gap-4 mt-2">
-                  <img
+                  <Image
                     src="/icon1.png"
                     alt="Guest 3"
                     className="w-12 h-12 rounded-full object-cover"

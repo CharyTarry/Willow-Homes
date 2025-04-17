@@ -1,12 +1,12 @@
 "use client";
-
+import Image from 'next/image';
 const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full bg-gray-900 text-white shadow-lg z-50">
       <div className="container mx-auto flex items-center justify-between px-2 py-3">
         {/* Logo */}
         <a href="#home" className="">
-        <img src="/logo2.png" alt="Hostel Logo" className="h-32 w-auto mr-3" width={1000} height={1000}/>
+        <Image src="/logo2.png" alt="Hostel Logo" className="h-32 w-auto mr-3" width={1000} height={1000}/>
         </a>
 
         {/* Menu aligned to the right */}

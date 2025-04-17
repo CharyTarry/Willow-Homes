@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FaFacebook, FaInstagram, FaTiktok, FaPhoneAlt } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { IoLocationSharp } from "react-icons/io5";
@@ -40,13 +41,13 @@ export default function Footer() {
           {/* Social Icons */}
           <div className="flex gap-8">
             <a target="_blank"  rel="noopener noreferrer" href="https://www.instagram.com/willow_homes_hostel/" className="text-4xl hover:scale-110 transition-transform">
-              <img src="/insta.png" className="w-12 h-12"/>
+              <Image src="/insta.png" className="w-12 h-12" alt='ig'/>
             </a>
             <a target="_blank"  rel="noopener noreferrer" href="https://www.tiktok.com/@willowhomes" className="text-4xl hover:scale-110 transition-transform">
-            <img src="/tiktok.png" className="w-12 h-12"/>
+            <Image src="/tiktok.png" className="w-12 h-12" alt='tiktok'/>
             </a>
             <a target="_blank"  rel="noopener noreferrer" href="https://www.facebook.com/people/Willow-Homes/pfbid0A2zMyBk9crX1igkesjSN6iHUjGEBjDRksg9ueeiCN1p79GRqEDM5EHzNLPHFwXKpl/" className="text-4xl hover:scale-110 transition-transform">
-            <img src="/fb.png" className="w-12 h-12"/>
+            <Image src="/fb.png" className="w-12 h-12" alt='fb'/>
             </a>
           </div>
         </div>
