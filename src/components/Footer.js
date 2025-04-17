@@ -41,13 +41,13 @@ export default function Footer() {
           {/* Social Icons */}
           <div className="flex gap-8">
             <a target="_blank"  rel="noopener noreferrer" href="https://www.instagram.com/willow_homes_hostel/" className="text-4xl hover:scale-110 transition-transform">
-              <Image src="/insta.png" className="w-12 h-12" alt='ig'/>
+              <Image  width={48} height={48} src="/insta.png" className="w-12 h-12" alt='ig'/>
             </a>
             <a target="_blank"  rel="noopener noreferrer" href="https://www.tiktok.com/@willowhomes" className="text-4xl hover:scale-110 transition-transform">
-            <Image src="/tiktok.png" className="w-12 h-12" alt='tiktok'/>
+            <Image width={48} height={48} src="/tiktok.png" className="w-12 h-12" alt='tiktok'/>
             </a>
             <a target="_blank"  rel="noopener noreferrer" href="https://www.facebook.com/people/Willow-Homes/pfbid0A2zMyBk9crX1igkesjSN6iHUjGEBjDRksg9ueeiCN1p79GRqEDM5EHzNLPHFwXKpl/" className="text-4xl hover:scale-110 transition-transform">
-            <Image src="/fb.png" className="w-12 h-12" alt='fb'/>
+            <Image width={48} height={48} src="/fb.png" className="w-12 h-12" alt='fb'/>
             </a>
           </div>
         </div>

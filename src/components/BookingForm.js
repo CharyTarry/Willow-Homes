@@ -167,6 +167,8 @@ export default function BookingAndTestimonials() {
                   <Image
                     src="/icon1.png"
                     alt="Guest 1"
+                    width={48}
+                    height={48}
                     className="w-12 h-12 rounded-full object-cover"
                   />
                   <div>
@@ -188,6 +190,8 @@ export default function BookingAndTestimonials() {
                   <Image
                     src="/icon1.png"
                     alt="Guest 2"
+                    width={48}
+                    height={48}
                     className="w-12 h-12 rounded-full object-cover"
                   />
                   <div>
@@ -209,6 +213,8 @@ export default function BookingAndTestimonials() {
                   <Image
                     src="/icon1.png"
                     alt="Guest 3"
+                    width={48}
+                    height={48}
                     className="w-12 h-12 rounded-full object-cover"
                   />
                   <div>
