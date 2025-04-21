@@ -7,24 +7,24 @@ import { ChevronLeft, ChevronRight } from "lucide-react"; // small arrows
 const sections = [
   {
     name: "2 Sharing Room",
-    images: ["/Room1A.JPG", "/Room1B.JPG", "/Room2A.JPG"],
+    images: ["/Room1A.JPG", "/Room1B.JPG"],
   },
   {
     name: "4 Sharing Room 1",
-    images: ["/Room3A.JPG", "/Room3B.JPG", "/Room1A.JPG"],
+    images: ["/Room2A.JPG", "/Room2B.JPG"],
   },
   {
     name: "4 Sharing Room 2",
-    images: ["/Room3A.JPG", "/Room3B.JPG", "/Room1A.JPG"],
+    images: ["/Room3A.JPG", "/Room3B.JPG"],
   },
   {
     name: "Master Bedroom",
-    images: ["/Room1A.JPG", "/Room1A.JPG", "/Room1A.JPG"],
+    images: ["/Bathroom.JPG", "/Room1A.JPG", "/Room2A.JPG"],
     isFullWidth: true,
   },
   {
     name: "Common Areas",
-    images: ["/Room1A.JPG", "/Room1A.JPG", "/Room1A.JPG"],
+    images: ["/Livingroom.JPG", "/Livingroom2.JPG", "/Livingroom.JPG","/Dining.JPG","/Dining2.JPG"],
     isFullWidth: true,
   },
 ];

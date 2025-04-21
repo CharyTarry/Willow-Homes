@@ -161,7 +161,7 @@ export default function BookingAndTestimonials() {
               <FaQuoteLeft className="text-3xl text-[#5c3d8f] mt-1" />
               <div>
                 <p className="text-black font-medium mb-2">
-                &quot;The best place to stay in town! Cozy rooms and amazing amenities.quote&quot;
+                &quot;The best place to stay in town! Cozy rooms and amazing amenities.&quot;
                 </p>
                 <div className="flex items-center gap-4 mt-2">
                   <Image
@@ -184,7 +184,7 @@ export default function BookingAndTestimonials() {
               <FaQuoteLeft className="text-3xl text-[#5c3d8f] mt-1" />
               <div>
                 <p className="text-black font-medium mb-2">
-                &quot;Highly recommend this hostel. Friendly staff and great atmosphere.quote&quot;
+                &quot;Highly recommend this hostel. Friendly staff and great atmosphere.&quot;
                 </p>
                 <div className="flex items-center gap-4 mt-2">
                   <Image
@@ -207,7 +207,7 @@ export default function BookingAndTestimonials() {
               <FaQuoteLeft className="text-3xl text-[#5c3d8f] mt-1" />
               <div>
                 <p className="text-black font-medium mb-2">
-                &quot;Affordable and comfortable! Will definitely book again next time.quote&quot;
+                &quot;Affordable and comfortable! Will definitely book again next time.&quot;
                 </p>
                 <div className="flex items-center gap-4 mt-2">
                   <Image

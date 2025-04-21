@@ -32,8 +32,11 @@ const Navbar = () => {
         {/* Menu for desktop */}
         <div className="hidden md:flex gap-8 text-lg">
           <a href="#" className="hover:text-purple-300">Home</a>
-          <a href="#about" className="hover:text-purple-300">Rooms</a>
+          
           <a href="#facilities" className="hover:text-purple-300">Facilities</a>
+          <a href="#pricing" className="hover:text-purple-300">Pricing</a>
+          <a href="#menu" className="hover:text-purple-300">Menu</a>
+          <a href="#about" className="hover:text-purple-300">Rooms</a>
           <a href="#booking" className="hover:text-purple-300">Booking</a>
           <a href="#contact" className="hover:text-purple-300">Contact</a>
         </div>
@@ -43,8 +46,11 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden flex flex-col items-center gap-4 py-4 bg-gray-800 text-lg">
           <a href="#" className="hover:text-purple-300" onClick={toggleMenu}>Home</a>
-          <a href="#about" className="hover:text-purple-300" onClick={toggleMenu}>Rooms</a>
+          
           <a href="#facilities" className="hover:text-purple-300" onClick={toggleMenu}>Facilities</a>
+          <a href="#pricing" className="hover:text-purple-300" onClick={toggleMenu}>Pricing</a>
+          <a href="#menu" className="hover:text-purple-300" onClick={toggleMenu}>Menu</a>
+          <a href="#about" className="hover:text-purple-300" onClick={toggleMenu}>Rooms</a>
           <a href="#booking" className="hover:text-purple-300" onClick={toggleMenu}>Booking</a>
           <a href="#contact" className="hover:text-purple-300" onClick={toggleMenu}>Contact</a>
         </div>
