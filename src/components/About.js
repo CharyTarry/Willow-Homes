@@ -7,24 +7,24 @@ import { ChevronLeft, ChevronRight } from "lucide-react"; // small arrows
 const sections = [
   {
     name: "2 Sharing Room",
-    images: ["/Room1A.JPG", "/Room1B.JPG"],
+    images: ["/2SR1.JPG", "/2SR2.JPG", "/2SB.JPG"],
   },
   {
     name: "4 Sharing Room 1",
-    images: ["/Room2A.JPG", "/Room2B.JPG"],
+    images: ["/4S1R1.JPG", "/4S1R2.JPG","/4S1R3.JPG","/4S1R4.JPG","/4S1R5.JPG","/4S1R6.JPG","/4S1B1.JPG","/4S1B2.JPG"],
   },
   {
     name: "4 Sharing Room 2",
-    images: ["/Room3A.JPG", "/Room3B.JPG"],
+    images: ["/4S2R1.JPG", "/4S2R2.JPG","/4S2R3.JPG","/4S2R4.JPG","/4S2R5.JPG","/4S2B1.JPG","/4S2B2.JPG","/4S2B3.JPG"],
   },
   {
     name: "Master Bedroom",
-    images: ["/Bathroom.JPG", "/Room1A.JPG", "/Room2A.JPG"],
+    images: ["/6SR1.JPG","/6SR2.JPG","/6SR3.JPG","/6SR4.JPG","/6SR5.JPG","/6SR6.JPG","/6SB1.JPG","/6SB2.JPG"],
     isFullWidth: true,
   },
   {
     name: "Common Areas",
-    images: ["/Livingroom.JPG", "/Livingroom2.JPG", "/Livingroom.JPG","/Dining.JPG","/Dining2.JPG"],
+    images: ["/Livingroom.JPG", "/Livingroom2.JPG", "/Livingroom.JPG","/Living1.JPG","/Living2.JPG","/Dining.JPG","/Dining2.JPG","/Dining1.JPG","/Dining3.JPG","/Dining4.JPG","/Kitchen1.JPG","/Kitchen2.JPG","/Kitchen3.JPG","/Balcony1.JPG","/Laundry.JPG","/Out.JPG","/Guest1.JPG"],
     isFullWidth: true,
   },
 ];
@@ -78,7 +78,7 @@ function RoomSection({ section, isFullWidth = false }) {
         {section.name}
       </h3>
 
-      <div className="relative w-full h-[400px] overflow-hidden rounded-md">
+      <div className="relative w-full aspect-[4/3] overflow-hidden rounded-md">
         <Image
           src={section.images[currentIndex]}
           alt={section.name}
